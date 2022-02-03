@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">myfirstapp</string>
+    <string name="lbl_name">Nama Mahasiswa</string>
+    <string name="my_name">Novi Rahmawati</string>
+    <string name="lbl_nim">NIM Mahasiswa</string>
+    <string name="my_nim">19104079</string>
+    <string name="ganti_halaman">Ganti Halaman</string>
+</resources>
