@@ -1,0 +1,18 @@
+id/novi_19104079/modul6/BuildConfig.java
+ id.novi_19104079.modul6.BuildConfig
+id/novi_19104079/modul6/databinding/ContentScrollingBinding.java
+ id.novi_19104079.modul6.databinding.ContentScrollingBinding
+id/novi_19104079/modul6/databinding/ItemListBinding.java
+ id.novi_19104079.modul6.databinding.ItemListBinding
+id/novi_19104079/modul6/databinding/ActivityMainBinding.java
+ id.novi_19104079.modul6.databinding.ActivityMainBinding
+id/novi_19104079/modul6/databinding/ItemCardviewBinding.java
+ id.novi_19104079.modul6.databinding.ItemCardviewBinding
+id/novi_19104079/modul6/databinding/ItemGridBinding.java
+ id.novi_19104079.modul6.databinding.ItemGridBinding
+id/novi_19104079/modul6/databinding/ActivityMapsBinding.java
+ id.novi_19104079.modul6.databinding.ActivityMapsBinding
+id/novi_19104079/modul6/DataBindingTriggerClass.java
+ id.novi_19104079.modul6.DataBindingTriggerClass
+id/novi_19104079/modul6/databinding/ActivityDetailBinding.java
+ id.novi_19104079.modul6.databinding.ActivityDetailBinding
