@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "573244966775",
+    "project_id": "authentication-daa6f",
+    "storage_bucket": "authentication-daa6f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:573244966775:android:1e469d2bd1c16a27f6c372",
+        "android_client_info": {
+          "package_name": "id.novi_19104079.authenticationgoogle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "573244966775-ak2bjfgdgjbrul2bj9dqjo9p07mvkn6j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6WEyFvTuzJQmHLib6d66RLNpCT0bVZjg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "573244966775-ak2bjfgdgjbrul2bj9dqjo9p07mvkn6j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:573244966775:android:4310119e0f7e051df6c372",
+        "android_client_info": {
+          "package_name": "id.novi_19104079.googleauth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "573244966775-ak2bjfgdgjbrul2bj9dqjo9p07mvkn6j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6WEyFvTuzJQmHLib6d66RLNpCT0bVZjg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "573244966775-ak2bjfgdgjbrul2bj9dqjo9p07mvkn6j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
