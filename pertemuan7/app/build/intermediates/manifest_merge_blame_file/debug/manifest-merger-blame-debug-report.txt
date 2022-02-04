@@ -1,0 +1,153 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="id.novi_19104079.pertemuan7"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="22"
+8-->C:\PBB\pertemuan7\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\PBB\pertemuan7\app\src\main\AndroidManifest.xml
+10
+11    <!--
+12         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+13         Google Maps Android API v2, but you must specify either coarse or fine
+14         location permissions for the "MyLocation" functionality.
+15    -->
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->C:\PBB\pertemuan7\app\src\main\AndroidManifest.xml:10:5-79
+16-->C:\PBB\pertemuan7\app\src\main\AndroidManifest.xml:10:22-76
+17
+18    <!-- Include required permissions for Google Maps API to run. -->
+19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+19-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Novi2\.gradle\caches\transforms-3\61e1c24365a84bc8ded590d17bf3d82e\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
+19-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Novi2\.gradle\caches\transforms-3\61e1c24365a84bc8ded590d17bf3d82e\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:22-76
+20    <uses-permission android:name="android.permission.INTERNET" />
+20-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Novi2\.gradle\caches\transforms-3\61e1c24365a84bc8ded590d17bf3d82e\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:24:5-67
+20-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Novi2\.gradle\caches\transforms-3\61e1c24365a84bc8ded590d17bf3d82e\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:24:22-64
+21
+22    <uses-feature
+22-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Novi2\.gradle\caches\transforms-3\61e1c24365a84bc8ded590d17bf3d82e\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+23        android:glEsVersion="0x00020000"
+23-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Novi2\.gradle\caches\transforms-3\61e1c24365a84bc8ded590d17bf3d82e\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+24        android:required="true" />
+24-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Novi2\.gradle\caches\transforms-3\61e1c24365a84bc8ded590d17bf3d82e\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+25
+26    <application
+26-->C:\PBB\pertemuan7\app\src\main\AndroidManifest.xml:12:5-50:19
+27        android:allowBackup="true"
+27-->C:\PBB\pertemuan7\app\src\main\AndroidManifest.xml:13:9-35
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.7.0] C:\Users\Novi2\.gradle\caches\transforms-3\3287ed4cf8c32398866b0c1d2a55edb7\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+29        android:debuggable="true"
+30        android:icon="@mipmap/ic_launcher"
+30-->C:\PBB\pertemuan7\app\src\main\AndroidManifest.xml:14:9-43
+31        android:label="@string/app_name"
+31-->C:\PBB\pertemuan7\app\src\main\AndroidManifest.xml:15:9-41
+32        android:roundIcon="@mipmap/ic_launcher_round"
+32-->C:\PBB\pertemuan7\app\src\main\AndroidManifest.xml:16:9-54
+33        android:supportsRtl="true"
+33-->C:\PBB\pertemuan7\app\src\main\AndroidManifest.xml:17:9-35
+34        android:testOnly="true"
+35        android:theme="@style/Theme.Pertemuan7" >
+35-->C:\PBB\pertemuan7\app\src\main\AndroidManifest.xml:18:9-48
+36
+37        <!--
+38             The API key for Google Maps-based APIs is defined as a string resource.
+39             (See the file "res/values/google_maps_api.xml").
+40             Note that the API key is linked to the encryption key used to sign the APK.
+41             You need a different API key for each encryption key, including the release key that is used to
+42             sign the APK for publishing.
+43             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+44        -->
+45        <meta-data
+45-->C:\PBB\pertemuan7\app\src\main\AndroidManifest.xml:28:9-30:55
+46            android:name="com.google.android.geo.API_KEY"
+46-->C:\PBB\pertemuan7\app\src\main\AndroidManifest.xml:29:13-58
+47            android:value="@string/google_maps_key" />
+47-->C:\PBB\pertemuan7\app\src\main\AndroidManifest.xml:30:13-52
+48
+49        <activity
+49-->C:\PBB\pertemuan7\app\src\main\AndroidManifest.xml:32:9-35:59
+50            android:name="id.novi_19104079.pertemuan7.MapsActivity"
+50-->C:\PBB\pertemuan7\app\src\main\AndroidManifest.xml:33:13-41
+51            android:exported="true"
+51-->C:\PBB\pertemuan7\app\src\main\AndroidManifest.xml:34:13-36
+52            android:label="@string/title_activity_maps" />
+52-->C:\PBB\pertemuan7\app\src\main\AndroidManifest.xml:35:13-56
+53        <activity
+53-->C:\PBB\pertemuan7\app\src\main\AndroidManifest.xml:36:9-40:67
+54            android:name="id.novi_19104079.pertemuan7.DetailActivity"
+54-->C:\PBB\pertemuan7\app\src\main\AndroidManifest.xml:37:13-43
+55            android:exported="true"
+55-->C:\PBB\pertemuan7\app\src\main\AndroidManifest.xml:38:13-36
+56            android:label="@string/title_activity_detail"
+56-->C:\PBB\pertemuan7\app\src\main\AndroidManifest.xml:39:13-58
+57            android:theme="@style/Theme.Pertemuan7.NoActionBar" />
+57-->C:\PBB\pertemuan7\app\src\main\AndroidManifest.xml:40:13-64
+58        <activity
+58-->C:\PBB\pertemuan7\app\src\main\AndroidManifest.xml:41:9-49:20
+59            android:name="id.novi_19104079.pertemuan7.MainActivity"
+59-->C:\PBB\pertemuan7\app\src\main\AndroidManifest.xml:42:13-41
+60            android:exported="true" >
+60-->C:\PBB\pertemuan7\app\src\main\AndroidManifest.xml:43:13-36
+61            <intent-filter>
+61-->C:\PBB\pertemuan7\app\src\main\AndroidManifest.xml:44:13-48:29
+62                <action android:name="android.intent.action.MAIN" />
+62-->C:\PBB\pertemuan7\app\src\main\AndroidManifest.xml:45:17-69
+62-->C:\PBB\pertemuan7\app\src\main\AndroidManifest.xml:45:25-66
+63
+64                <category android:name="android.intent.category.LAUNCHER" />
+64-->C:\PBB\pertemuan7\app\src\main\AndroidManifest.xml:47:17-77
+64-->C:\PBB\pertemuan7\app\src\main\AndroidManifest.xml:47:27-74
+65            </intent-filter>
+66        </activity>
+67        <!-- Needs to be explicitly declared on P+ -->
+68        <uses-library
+68-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Novi2\.gradle\caches\transforms-3\61e1c24365a84bc8ded590d17bf3d82e\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+69            android:name="org.apache.http.legacy"
+69-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Novi2\.gradle\caches\transforms-3\61e1c24365a84bc8ded590d17bf3d82e\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+70            android:required="false" />
+70-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Novi2\.gradle\caches\transforms-3\61e1c24365a84bc8ded590d17bf3d82e\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+71
+72        <activity
+72-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Novi2\.gradle\caches\transforms-3\def7a9994d018da811e2aaee6c77d0ad\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+73            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+73-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Novi2\.gradle\caches\transforms-3\def7a9994d018da811e2aaee6c77d0ad\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+74            android:exported="false"
+74-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Novi2\.gradle\caches\transforms-3\def7a9994d018da811e2aaee6c77d0ad\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+75            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+75-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Novi2\.gradle\caches\transforms-3\def7a9994d018da811e2aaee6c77d0ad\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+76
+77        <meta-data
+77-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Novi2\.gradle\caches\transforms-3\d51a76292ef8026979ff9c36d0a48ecc\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+78            android:name="com.google.android.gms.version"
+78-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Novi2\.gradle\caches\transforms-3\d51a76292ef8026979ff9c36d0a48ecc\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+79            android:value="@integer/google_play_services_version" />
+79-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Novi2\.gradle\caches\transforms-3\d51a76292ef8026979ff9c36d0a48ecc\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+80
+81        <provider
+81-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Novi2\.gradle\caches\transforms-3\8856134bcd7b8b49a046b976ebc002ff\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+82            android:name="androidx.startup.InitializationProvider"
+82-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Novi2\.gradle\caches\transforms-3\8856134bcd7b8b49a046b976ebc002ff\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+83            android:authorities="id.novi_19104079.pertemuan7.androidx-startup"
+83-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Novi2\.gradle\caches\transforms-3\8856134bcd7b8b49a046b976ebc002ff\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+84            android:exported="false" >
+84-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Novi2\.gradle\caches\transforms-3\8856134bcd7b8b49a046b976ebc002ff\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+85            <meta-data
+85-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Novi2\.gradle\caches\transforms-3\8856134bcd7b8b49a046b976ebc002ff\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+86                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+86-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Novi2\.gradle\caches\transforms-3\8856134bcd7b8b49a046b976ebc002ff\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+87                android:value="androidx.startup" />
+87-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Novi2\.gradle\caches\transforms-3\8856134bcd7b8b49a046b976ebc002ff\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+88            <meta-data
+88-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Novi2\.gradle\caches\transforms-3\c3dc026c86fcb2cf2e53d156d603f6f7\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+89                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+89-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Novi2\.gradle\caches\transforms-3\c3dc026c86fcb2cf2e53d156d603f6f7\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+90                android:value="androidx.startup" />
+90-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Novi2\.gradle\caches\transforms-3\c3dc026c86fcb2cf2e53d156d603f6f7\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+91        </provider>
+92    </application>
+93
+94</manifest>
